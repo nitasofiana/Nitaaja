@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Pacifico&family=Raleway:ital,wght@1,200&display=swap');
+        h1{
+            font-family: 'Architects Daughter', cursive; color: teal;
+        }
+        h2{
+            background: -webkit-linear-gradient(magenta, cyan);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .background {
+            position: relative;
+            width: 50%;
+            height: 50%;
+        }
+        .foreground {
+            backdrop-filter: blur(10px);
+            opacity: 0.5;
+        }
+        .container {
+        position: relative;
+        display: inline-block;
+        }
+
+        .left{
+        position: absolute;
+        filter: blur(4px);
+        width: 50%;
+        top: 0;
+        bottom: 0;
+        background: white;
+        opacity: 0.5;
+        }
+
+        .right {
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: translate(0px,50px);
+            color: linear-gradient(to right, red , yellow);
+;
+        }
